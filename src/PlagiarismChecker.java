@@ -15,7 +15,6 @@ public class PlagiarismChecker {
      * @return The length of the longest shared substring.
      */
     public static int longestSharedSubstring(String doc1, String doc2) {
-
         int[][] longest = new int[doc1.length() + 1][doc2.length() + 1];
 
         int count;
@@ -23,35 +22,22 @@ public class PlagiarismChecker {
         int up;
 
 
-        for(int i = 0; i < doc1.length(); i++){
-            for(int j = 0; j < doc2.length(); j++){
-                count = 0;
-                left = 0;
-                up = 0;
-
+        for(int i = 1; i <= doc1.length(); i++){
+            for(int j = 1; j <= doc2.length(); j++){
                 // Checks if the current characters are equal
-                if(doc1.charAt(i) == doc2.charAt(j)){
-                    count += 1;
+                if(doc1.charAt(i - 1) == doc2.charAt(j - 1)){
+                    longest[i][j] = longest[i - 1][j - 1] + 1;
                 }
-
-                // Find the value of the cell above
-                if((i - 1) >= 0){
+                else{
                     up = longest[i - 1][j];
-                }
-
-                // Find the value of the cell to the left
-                if((j - 1) >= 0){
                     left = longest[i][j - 1];
-                }
 
-                count += Math.max(up, left);
+                    longest[i][j] = Math.max(up, left);
 
-                if (count > Math.min((i + 1), (j + 1))){
-                    count = Math.min(i, j);
                 }
-                longest[i][j] = count;
             }
         }
-        return longest[doc1.length() - 1][doc2.length() - 1];
+
+        return longest[doc1.length()][doc2.length()];
     }
 }
