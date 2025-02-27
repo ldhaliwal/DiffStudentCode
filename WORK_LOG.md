@@ -1,9 +1,9 @@
-Name: YOUR NAME HERE
+Name: Liliana Dhaliwal
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date        |    Time     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Update |
+|:------------|:-----------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| February 15 | 11:15-11:55 | I brainstormed for a while at the boards with kate and we came up with a 2-d array tabulation approach. We got it working right away for the small test case but the numbers were still off for the other test cases. We then figured out that we should never be saving a value into the array that is larger than the smaller of i or j, so we put in another if statement to check for that. It didn't solve any of the test cases we had not already solved but it did get a bit closer in terms of what number we were returning compared to the actual value. |
+|             |             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
