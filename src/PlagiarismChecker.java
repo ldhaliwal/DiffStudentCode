@@ -17,10 +17,8 @@ public class PlagiarismChecker {
     public static int longestSharedSubstring(String doc1, String doc2) {
         int[][] longest = new int[doc1.length() + 1][doc2.length() + 1];
 
-        int count;
         int left;
         int up;
-
 
         for(int i = 1; i <= doc1.length(); i++){
             for(int j = 1; j <= doc2.length(); j++){
