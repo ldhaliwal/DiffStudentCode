@@ -33,11 +33,11 @@ public class PlagiarismChecker {
                     left = longest[i][j - 1];
 
                     longest[i][j] = Math.max(up, left);
-
                 }
             }
         }
 
+        // Returns the longest count
         return longest[doc1.length()][doc2.length()];
     }
 }
