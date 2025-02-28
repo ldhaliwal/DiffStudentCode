@@ -64,11 +64,11 @@ public class PlagiarismChecker {
         int left = longest[i][j - 1];
 
         if(up == current){
-            substring.insert(0, firstDoc.charAt(i - 1));
+            //substring.insert(0, firstDoc.charAt(i - 1));
             return findSubstring(longest, i - 1, j, up, substring);
         }
         if(left == current){
-            substring.insert(0, secondDoc.charAt(j - 1));
+            //substring.insert(0, secondDoc.charAt(j - 1));
             return findSubstring(longest, i, j - 1, left, substring);
         }
 

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f68ad4e4-7dd7-4950-93fb-5d96ae262228" name="Changes" comment="yay - comments">
+    <list default="true" id="f68ad4e4-7dd7-4950-93fb-5d96ae262228" name="Changes" comment="work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlagiarismChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlagiarismChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.PlagiarismCheckerTest.testCorrectSmall">
+  <component name="RunManager" selected="TestNG.PlagiarismCheckerTest">
     <configuration name="PlagiarismCheckerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DiffStudentCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PlagiarismCheckerTest.testCorrectSmall" />
         <item itemvalue="TestNG.PlagiarismCheckerTest" />
+        <item itemvalue="TestNG.PlagiarismCheckerTest.testCorrectSmall" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +121,22 @@
       <option name="project" value="LOCAL" />
       <updated>1740632071683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="work">
+      <option name="closed" value="true" />
+      <created>1740707646091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740707646092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first try" />
     <MESSAGE value="yay" />
     <MESSAGE value="yay - comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="yay - comments" />
+    <MESSAGE value="work" />
+    <option name="LAST_COMMIT_MESSAGE" value="work" />
   </component>
 </project>
